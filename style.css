@@ -57,6 +57,9 @@ min-height: 7vh;
 background-image: linear-gradient(rgba(238, 237, 237, 0.7),rgba(227, 227, 227, 0.7)),url(./image/13923887_10154502068158623_9125274865475991156_o.jpg);
 align-items: center;
 }
+
+ 
+
 nav{
     flex: 2;
     text-align: center;
@@ -65,17 +68,13 @@ nav{
 }
 nav ul li{
   list-style: none;
-  display: flex;
+  display: inline-block;
   margin-left: 60px;
-  justify-content: space-around;
 }
 nav ul a{
   font-optical-sizing: 20px;
   color: white;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: bold;
-  letter-spacing: 3px;
-  text text-decoration: none;
-  
-
+  text-align: center;
 }
