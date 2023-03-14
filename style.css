@@ -28,3 +28,23 @@ h1{
     font-size: 200px;
 
 }
+
+header{
+    flex: 2;
+
+    height: 200px;
+    
+    text-align: center;
+    margin: auto;
+    padding: 6px;
+
+
+      border-radius: 50px;
+      
+      background: rgb(0, 0, 0);
+      padding: 50px;
+      background-image: linear-gradient(rgba(238, 237, 237, 0.7),rgba(227, 227, 227, 0.7)),url(./image/294b81239c1cf0f517c9728c8d2a237a.jpeg);
+      background-size: cover;
+      background-position: center;
+
+}
