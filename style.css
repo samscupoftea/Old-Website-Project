@@ -27,6 +27,7 @@ div.column{
 h1{
     color: white;
     font-size: 145px;
+    display:flex;
 
 }
 
@@ -77,4 +78,27 @@ nav ul a{
   font-size: 26px;
   font-weight: bold;
   text-align: center;
+}
+
+/*------ABOUTME------->*/
+
+.aboutme{
+    width: 80%;
+    margin:auto'
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 650;
+}
+
+p{
+    color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
 }
