@@ -43,13 +43,14 @@ header{
     padding: 6px;
 
 
-      border-radius: 5px;
+      border-radius: 0px;
       
       background: rgb(0, 0, 0);
       padding: 50px;
       background-image: linear-gradient(rgba(238, 237, 237, 0.7),rgba(227, 227, 227, 0.7)),url(./image/294b81239c1cf0f517c9728c8d2a237a.jpeg);
       background-size: cover;
       background-position: center;
+      border: 3px solid rgb(0, 0, 0);
 
 }
 .navbar{
@@ -59,7 +60,7 @@ align-items: center;
 min-height: 7vh;
 background-image: linear-gradient(rgba(125, 162, 185, 0.7),rgba(227, 227, 227, 0.7)),url(./image/planet\ road.jpeg);
 align-items: center;
-border: 10px solid rgb(235, 124, 222);
+border: 3px solid rgb(0, 0, 0);
 transition: 0.5ms;
 }
 
@@ -135,3 +136,25 @@ h3{
 .aboutMeCol:hover{
     box-shadow: 0 0 40px 0px rgba(0, 0, 0,0.2);
 }
+
+/* -------- WHY SOFTWARE DEVELOPMENT? ----------*/
+
+h4{
+    font-size: 180px;
+font-weight: 650;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
