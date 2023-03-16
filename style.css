@@ -59,6 +59,7 @@ align-items: center;
 min-height: 7vh;
 background-image: linear-gradient(rgba(125, 162, 185, 0.7),rgba(227, 227, 227, 0.7)),url(./image/planet\ road.jpeg);
 align-items: center;
+border: 10px solid rgb(235, 124, 222);
 transition: 0.5ms;
 }
 
