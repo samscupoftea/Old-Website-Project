@@ -167,6 +167,14 @@ font-weight: 650;
     
 }
 
+.page-content{
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
 
 
 
