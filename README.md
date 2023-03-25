@@ -1,6 +1,6 @@
 # Website-P4
 
-NOTES FOR MY WEBSITE WILL GO HERE. TO BE UPDATED...
+
 
 14th March: Today I started my webpage.
 The first thing I did was consult the design notes that I had simply made on a paper notepad. I knew that my website needed certain criteria. So I decided to design it to have three separate sections. The first section would be about me, which would use three centered flex columns resembling cards with a picture and text. The second section would be about why software development, and this part would be structured differently, with the content stacked. But I wanted to have very wide, thin artwork that would act as line breaks for each important point. The third section would be about my project journey, and for this section, I would employ the skills I learned from making project cards in both my Project gallery and Movie data. This time I would like them to include some JS interactivity as well.
