@@ -3,117 +3,95 @@
   margin: 0;
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 body {
-
-  width: 100vw;
-
-  box-sizing: border-box;
+  margin: 0;
 }
 
 div.titlebox {
   display: flex;
-  width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(243, 243, 171, 0.7), rgba(180, 171, 171, 0.7)), url(./image/moon\ dusk\ hike.jpeg);
   background-position: center;
   background-size: cover;
   justify-content: center;
-
 }
 
 div.row {
   display: flex;
-  height: 88%;
+  height: 88vh;
   align-items: center;
 }
 
 div.column {
   flex-basis: 50%;
-
 }
 
 h1 {
   color: white;
-  font-size: 145px;
+  font-size: 8vw;
+  /* Adjust the font size based on the viewport width */
   display: flex;
   justify-content: center;
-
 }
 
 header {
-  flex: 2;
-
   height: 200px;
-
   text-align: center;
-  margin: auto;
   padding: 6px;
-
-
   border-radius: 0px;
-
   background: rgb(0, 0, 0);
-  padding: 50px;
   background-image: linear-gradient(rgba(238, 237, 237, 0.7), rgba(227, 227, 227, 0.7)), url(./image/294b81239c1cf0f517c9728c8d2a237a.jpeg);
   background-size: cover;
   background-position: center;
   border: 3px solid rgb(0, 0, 0);
-
 }
 
 .navbar {
-  display: Flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 7vh;
   background-image: linear-gradient(rgba(125, 162, 185, 0.7), rgba(227, 227, 227, 0.7)), url(./image/planet\ road.jpeg);
   align-items: center;
   border: 3px solid rgb(0, 0, 0);
-  transition: 0.5ms;
+  transition: 0.5s;
 }
 
-.nav ul li:hover {
+.navbar ul li:hover {
   box-shadow: 0 0 40px 0px rgba(247, 222, 0, 0.2);
 }
 
-
-
 nav {
-  flex: 2;
   text-align: center;
-  margin: auto;
+}
 
+nav ul {
+  list-style: none;
 }
 
 nav ul li {
-  list-style: none;
   display: inline-block;
   margin-left: 60px;
 }
 
 nav ul a {
-  font-optical-sizing: 20px;
-  color: white;
   font-size: 26px;
   font-weight: bold;
-  text-align: center;
+  color: white;
 }
-
-/*------ABOUTME------->*/
 
 .aboutMe {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 100px;
-
 }
 
 h2 {
-  font-size: 180px;
+  font-size: 8vw;
+  /* Adjust the font size based on the viewport width */
   font-weight: 650;
 }
 
@@ -122,14 +100,12 @@ p {
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
-
 }
 
 .row {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
-
 }
 
 .aboutMeCol {
@@ -139,7 +115,7 @@ p {
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-  transition-duration: 0.5ms;
+  transition-duration: 0.5s;
 }
 
 h3 {
@@ -152,25 +128,13 @@ h3 {
   box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* -------- WHY SOFTWARE DEVELOPMENT? ----------*/
-
-h4 {
-  font-size: 180px;
-  font-weight: 650;
-
-}
-
-
-
 .section2Wrapper {
   display: flex;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: linear-gradient(rgba(243, 243, 171, 0.7), rgba(180, 171, 171, 0.7)), url(./image/pink\ moon\ bridge.jpeg);
   background-position: center;
   background-size: cover;
   justify-content: center;
-
 }
 
 .whySoftware {
@@ -178,7 +142,6 @@ h4 {
   margin: auto;
   text-align: center;
   padding-top: 10px;
-
 }
 
 .projects {
@@ -209,7 +172,6 @@ h4 {
   padding: 1rem;
 }
 
-
 .project-container p {
   padding: 0.4rem;
 }
@@ -228,4 +190,24 @@ h4 {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 12vw;
+  }
+
+  h2 {
+    font-size: 12vw;
+  }
+
+  .aboutMeCol {
+    flex-basis: 100%;
+  }
+
+  .project-container {
+    width: 100%;
+  }
 }
