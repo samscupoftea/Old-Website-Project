@@ -162,6 +162,33 @@ h3 {
   line-height: 2;
 }
 
+.s2main-content .button-area {
+  display: grid;
+  place-items: center;
+  padding: 50px 10px;
+}
+
+.button-area .btns button {
+  background-image: linear-gradient(rgba(0, 0, 0, 1.1), rgba(248, 248, 248, 0.1)), url(./Pictures/cc09e02c76ae83535ecf0da3d3258ee6.jpeg);
+
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  font-size: 15px;
+
+}
+
+.button-area .btns button:active {
+  background-image: linear-gradient(rgba(0, 0, 0, 1.1), rgba(248, 248, 248, 0.1)), url(./image/moon\ dusk\ hike.jpeg);
+}
+
+;
+
+
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
