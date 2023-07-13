@@ -163,9 +163,11 @@ h3 {
 }
 
 .s2main-content .button-area {
-  display: grid;
+  display: flexbox;
+
   place-items: center;
-  padding: 50px 10px;
+  padding: 0px 10px;
+  position: relative;
 }
 
 .button-area .btns button {

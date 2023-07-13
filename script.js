@@ -1,6 +1,8 @@
 const answers = [{
     answer: ` I studied Philosophy at university and realized that I enjoy the process of trying to solve problems both big and small.`,
 
+
+
 }, {
     answer: `Creativity is very important to me and while developing my coding skills, I have had the opportunity to not only express part of myself, but to see the ideas of others. This has really inspired me to deepen my knowledge and skill-set.`,
 
