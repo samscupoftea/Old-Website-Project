@@ -5,18 +5,29 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 body {
   margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 1em;
+  max-width: 60rem;
+  margin: 0 auto;
+  border: 2px solid red;
 }
 
 div.titlebox {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  /* Adjust the value based on the header height */
   background-image: linear-gradient(rgba(243, 243, 171, 0.7), rgba(180, 171, 171, 0.7)), url(./image/moon\ dusk\ hike.jpeg);
   background-position: center;
   background-size: cover;
   justify-content: center;
 }
+
 
 div.row {
   display: flex;
@@ -25,7 +36,7 @@ div.row {
 }
 
 div.column {
-  flex-basis: 50%;
+  flex-basis: 100%;
 }
 
 h1 {
@@ -35,6 +46,8 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+
 
 header {
   height: 200px;
@@ -82,8 +95,17 @@ nav ul a {
   color: white;
 }
 
+.aboutMeContainer {
+  flex-wrap: wrap;
+  display: flexbox;
+
+  flex-basis: 300px;
+  margin: 10px;
+
+}
+
 .aboutMe {
-  width: 80%;
+
   margin: auto;
   text-align: center;
   padding-top: 20px;
@@ -102,23 +124,35 @@ p {
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+  width: 100%
 }
 
 .row {
+  max-height: 300px;
   margin-top: 0;
-  display: flex;
+  display: flexbox;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .aboutMeCol {
+  display: flexbox;
   flex-basis: 30%;
   background-color: bisque;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
-  box-sizing: border-box;
+
   transition-duration: 0.2s;
 }
+
+.aboutMeCol img {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+
 
 h3 {
   text-align: center;
@@ -131,8 +165,10 @@ h3 {
 }
 
 .section2Wrapper {
+
   display: flex;
-  height: 100;
+  flex-wrap: wrap;
+
   background-image: linear-gradient(rgba(243, 243, 171, 0.7), rgba(180, 171, 171, 0.7)), url(./image/pink\ moon\ bridge.jpeg);
   background-position: center;
   background-size: cover;
@@ -140,6 +176,7 @@ h3 {
 }
 
 .whySoftware {
+  min-height: 300px;
   width: 80%;
   margin: 10px;
   text-align: center;
@@ -166,7 +203,7 @@ h3 {
   display: flexbox;
 
   place-items: center;
-  padding: 0px 10px;
+  padding: px 10px;
   position: relative;
 }
 
@@ -188,13 +225,14 @@ h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 1.1), rgba(248, 248, 248, 0.1)), url(./image/moon\ dusk\ hike.jpeg);
 }
 
-;
+
 
 
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
+
 }
 
 .project-pic {
@@ -204,9 +242,11 @@ h3 {
 
 .projects-container {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
+
 
 .projects-title {
   text-align: center;
@@ -217,8 +257,13 @@ h3 {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
-
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
+
+
+
 
 .project-container p {
   padding: 0.4rem;
@@ -244,13 +289,17 @@ h3 {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 50px) {
   h1 {
     font-size: 12vw;
   }
 
   h2 {
     font-size: 12vw;
+  }
+
+  .div.titlebox {
+    height: 170vh;
   }
 
   .aboutMeCol {
@@ -261,8 +310,22 @@ h3 {
     width: 100%;
   }
 
+  .whySoftware {
+    width: 100%;
+  }
+
   .project-container {
     height: 50vh;
+    flex-wrap: wrap;
 
   }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .div.titlebox {
+    height: 170vh;
+  }
+
 }
