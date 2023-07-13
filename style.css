@@ -86,7 +86,8 @@ nav ul a {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 h2 {
@@ -103,19 +104,19 @@ p {
 }
 
 .row {
-  margin-top: 5%;
+  margin-top: 0;
   display: flex;
   justify-content: space-between;
 }
 
 .aboutMeCol {
-  flex-basis: 32%;
+  flex-basis: 30%;
   background-color: bisque;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
-  transition-duration: 0.5s;
+  transition-duration: 0.2s;
 }
 
 h3 {
